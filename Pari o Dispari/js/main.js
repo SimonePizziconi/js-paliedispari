@@ -20,9 +20,14 @@ console.log(addNumber);
 
 // crea una funzione per stabilire se il numero è pari o dispari
 function evenOdd (number){
-    return (number % 2 === 0) ? `il ${number} è pari` : `il ${number} è dispari`;
+    return (number % 2 === 0) ? "pari" : "dispari";
 }
 
 // stabilisci se il numero è pari o dispari
-const result = evenOdd(addNumber);
+let result = evenOdd(addNumber);
 console.log(result);
+
+// stabilisci chi ha vinto 
+let resultMessage = (userChoice === result) ? "Hai Vinto" : "Hai Perso...";
+console.log(messageResult);
+
