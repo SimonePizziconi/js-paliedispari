@@ -13,3 +13,16 @@ function randomNumber (min, max){
 // genera un numero casuale per il pc
 let pcNumber = randomNumber(1, 5);
 console.log(pcNumber);
+
+// somma i due numeri 
+let addNumber = userNumber + pcNumber;
+console.log(addNumber);
+
+// crea una funzione per stabilire se il numero è pari o dispari
+function evenOdd (number){
+    return (number % 2 === 0) ? `il ${number} è pari` : `il ${number} è dispari`;
+}
+
+// stabilisci se il numero è pari o dispari
+const result = evenOdd(addNumber);
+console.log(result);
